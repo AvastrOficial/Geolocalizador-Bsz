@@ -1,6 +1,6 @@
 # Geolocalizador - Bsz // Podras ver la direcion exacta de una ip como la info del area 
 
-<center>
+
 Geolocalización de IP: Encuentra Ubicaciones con Precisión
 
 Bienvenido a nuestra herramienta de geolocalización de IP, donde la precisión es nuestra prioridad número uno. ¿Quieres saber la ubicación exacta de una dirección IP? ¡Estás en el lugar correcto!
