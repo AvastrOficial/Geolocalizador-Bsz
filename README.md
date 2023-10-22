@@ -20,7 +20,7 @@ imagene como se veria :
 al usarlo solo usa el input para poner la ip :
 ![image](https://github.com/AvastrOficial/Geolocalizador-Bsz/assets/91764815/cc5d38cb-f54e-41e9-9d5c-9f90f4ba6cae)
 
-al precioanr a buscar saldria : saldra lo que seria la descripciones los simbolos ??? son emojis si tu dispositivo movil no los capta pueden cambiarlos por simbolos <meta charset="UTF-8">
+al precioanr a buscar saldria : saldra lo que seria la descripciones los simbolos ??? son emojis si tu dispositivo movil no los capta pueden cambiarlos por simbolos UTF-8
 
 ![image](https://github.com/AvastrOficial/Geolocalizador-Bsz/assets/91764815/bffa3527-63fb-4634-bacc-dd8b0b4637da)
 
