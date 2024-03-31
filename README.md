@@ -13,6 +13,7 @@ Así que, ¿dónde está ese servidor misterioso? ¿En qué rincón del mundo se
 
 Este texto presenta la herramienta de geolocalización de IP de manera seria en su función principal, pero le añade un toque de entusiasmo y curiosidad para hacerlo más atractivo y divertido
 
+vercion 0.0.1 :
 https://appbsz.crearforo.net/h45-geolocalizacion-bsz
 
 imagene como se veria : 
