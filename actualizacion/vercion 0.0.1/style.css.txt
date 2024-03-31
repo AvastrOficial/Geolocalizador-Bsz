@@ -1,0 +1,147 @@
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+/* Main styles */
+body {
+ 
+  color: black;
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  text-align: center;
+  /* img size is 50x50 */
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Safari 4+ */
+  -moz-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Fx 5+ */
+  -o-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Opera 12+ */
+  animation: bg-scrolling-reverse 0.92s infinite;
+  /* IE 10+ */
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+body::before {
+  content: "BSZ";
+  font-size: 8rem;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Estilo para el input */
+#ipInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(70% - 10px);
+    margin-right: 10px; /* Espacio entre el input y el botón */
+}
+
+/* Estilo para el botón */
+#searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.6); /* Gris con opacidad */
+    color: black; /* Color de las letras en negro */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+#searchButton:hover {
+    background-color: rgba(128, 128, 128, 0.4); /* Gris más bajo con opacidad */
+    color: black; /* Color de las letras en negro */
+}
+
+
+
+.teclado{ width:auto; height:230px;
+	margin:0 auto;
+	background-image: -webkit-linear-gradient(#9098a3, #48525f);
+	border-radius:0 0 4px 4px;
+	border-top:1px solid #252525;
+	box-shadow:0 1px 2px rgba(255, 255, 255, .5) inset;
+	text-align:center;
+	letter-spacing:8px;
+	line-height:1.6;
+}
+
+.teclado a{ text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:46px;
+	color:#000;
+	text-shadow:0 2px 0 white;
+	background-image: -webkit-linear-gradient(#fefefe, #cfd0d3);
+	padding:7px 1px 7px 9px;
+	margin-bottom:4px;
+	border-radius:6px;
+	display:inline-block;
+	box-shadow:0 1px 1px rgba(255, 255, 255, .6) inset, 0 3px 3px -1px rgba(0, 0, 0, 1), 0 6px 6px rgba(0, 0, 0, .5);
+	position:relative;
+	}	
+	
+.teclado a:hover{ top:-1px;}	
+.teclado a:active{ top:0;
+	box-shadow:0 3px 6px -1px rgba(0, 0, 0, 1)}	
+
+#espacio{ color:#525c69;
+	font-size:32px;
+	letter-spacing:0;
+	padding:4px 80px 4px;}
+
+#search{color:#fff;
+	text-shadow:0 -2px 0px #203f79;
+	font-size:32px;
+	letter-spacing:0;
+	padding:4px 16px 4px;
+	background-image: -webkit-linear-gradient(#4085f4, #1950dc);
+	box-shadow:0 1px 0 #6cacf9 inset, 0 3px 3px -1px rgba(0, 0, 0, 1), 0 6px 6px rgba(0, 0, 0, .5);
+	}	
+.teclado a.dark{ color:white;
+	background-image: -webkit-linear-gradient(#79818c, #535c68);
+	text-shadow:0 -2px 0px #363a40;
+	}	
+.teclado a.dark.down{font-size:32px;
+	padding:4px 16px 4px;}	

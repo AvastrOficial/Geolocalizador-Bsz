@@ -1,0 +1,49 @@
+
+<html lang="en">
+<head>
+   <link rel="icon" type="image/png" href="https://files.catbox.moe/xy2fsl.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de IP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>  
+ 
+   
+    <main>
+        <div class="container">          
+            <label for="ipInput"><h3>Introduce una dirección IP:</h3></label>
+            <input type="text" id="ipInput" placeholder="Ejemplo: 8.8.8.8">
+            <button id="searchButton">Buscar</button>
+            <div id="ipInfo"></div>
+        </div>
+    </main>
+  
+<br>
+
+  
+  <div class="teclado">
+    <p>
+        <a href="#" class="num">1</a>
+        <a href="#" class="num">2</a>
+        <a href="#" class="num">3</a>
+        <a href="#" class="num">4</a>
+        <a href="#" class="num">5</a>
+        <a href="#" class="num">6</a>
+        <a href="#" class="num">7</a>
+        <a href="#" class="num">8</a>
+        <a href="#" class="num">9</a>
+        <a href="#" class="num">0</a>
+    </p>
+   <p>
+        <a href="#" class="dark down" id="punto">.</a>
+        <a href="#" class="dark down" id="coma">,</a>
+        <a href="#" id="espacio">espacio</a>
+        <a href="#" id="search">Buscar</a>
+    </p>
+</div>
+  
+  
+    <script src="script.js"></script>
+</body>
+</html>
